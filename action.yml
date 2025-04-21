@@ -36,4 +36,4 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/main/index.js'
-  post: 'dist/cleanup/index.js'
+  # post: 'dist/cleanup/index.js'
