@@ -50,7 +50,7 @@ async function run() {
         }] 
       }).promise();
 
-      console.log(`The IP ${myPublicIp} is added`);
+      console.log(`The IP ${myPublicIp} is added to SGID ${group.GroupId}`);
     }
 
   } catch (error) {

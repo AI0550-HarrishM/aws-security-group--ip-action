@@ -1,6 +1,5 @@
 name: 'AWS Security Group Add IP'
 description: 'Add IP address to your AWS security group'
-author: 'Sohel Amin'
 branding:
   icon: 'lock'
   color: 'red'
@@ -36,4 +35,3 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/main/index.js'
-  # post: 'dist/cleanup/index.js'
