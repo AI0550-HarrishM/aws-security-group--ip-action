@@ -17,7 +17,7 @@ async function run() {
       }).promise();
     }
 
-    console.log(`The IP ${myPublicIp} is removed`);
+    console.log(`The IP ${myPublicIp} is removed from SGID ${groupId}`);
   } catch (error) {
     core.setFailed(error.message);
   }
